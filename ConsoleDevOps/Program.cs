@@ -16,8 +16,12 @@ public class Program
             if (usrInput.ToLower().Equals("y") || usrInput.ToLower().Equals("yes") && usrInput != null)
             {
                 goon = false;
+                if(goon = false)
+                {
+                    goon = true
+                }
             }
-            goon = false;
+
         }
     }
 }
