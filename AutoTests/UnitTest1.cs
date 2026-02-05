@@ -10,7 +10,8 @@ namespace AutoTests
         [Test]
         public void KoererDockerVirkeligVoresTests()
         {
-            Assert.Pass();
+            int i = 1 + 1;
+            Assert.That(i, Is.EqualTo(2));
         }
     }
 }
