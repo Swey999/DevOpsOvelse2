@@ -20,6 +20,7 @@ public class Program
                 {
                     goon = true;
                 }
+                //Vigtig kommentar
             }
 
         }
