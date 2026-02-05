@@ -1,14 +1,25 @@
 name: Simple CI Pipeline
-on: [push, pull_request] 
+
+on: [push, pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
       - name: Run a basic test
         run: echo "CI Pipeline Running!"
-      - name: Run tests
+
+      - name: Run script tests
         run: bash .github/workflows/test_script.sh
+
       - name: Run Unit Tests
-        run: UnitTest1.cs
+        run: dotnet test
