@@ -17,6 +17,6 @@ public class Program
             {
                 goon = false;
             }
-        }
-    }
+            goon = false;
+      }
 }
