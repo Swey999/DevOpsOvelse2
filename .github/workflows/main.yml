@@ -10,3 +10,5 @@ jobs:
         run: echo "CI Pipeline Running!"
       - name: Run tests
         run: bash .github/workflows/test_script.sh
+      - name: Run Unit Tests
+        run: UnitTest1.cs
