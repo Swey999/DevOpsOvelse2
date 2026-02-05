@@ -11,7 +11,7 @@ namespace AutoTests
         public void KoererDockerVirkeligVoresTests()
         {
             int i = 1 + 1;
-            Assert.That(i, Is.EqualTo(2));
+            Assert.That(i, Is.EqualTo(3));
         }
     }
 }
