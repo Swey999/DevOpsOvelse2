@@ -11,7 +11,12 @@ public class Program
             Console.WriteLine("Letter counter:");
             string usrInput = Console.ReadLine();
             Console.WriteLine(usrInput.Length);
-            goon = false;
+            Console.WriteLine("Quit?");
+            usrInput = Console.ReadLine();
+            if (usrInput.ToLower().Equals("y") || usrInput.ToLower().Equals("yes") && usrInput != null)
+            {
+                goon = false;
+            }
         }
     }
 }
