@@ -18,7 +18,7 @@ public class Program
                 goon = false;
                 if(goon = false)
                 {
-                    goon = true
+                    goon = true;
                 }
             }
 
