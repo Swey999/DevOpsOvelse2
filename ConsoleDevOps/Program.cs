@@ -21,6 +21,7 @@ public class Program
                     goon = true;
                 }
                 //Vigtig kommentar
+                //Vigtig kommentar 2
             }
 
         }
