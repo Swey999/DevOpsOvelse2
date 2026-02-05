@@ -11,12 +11,12 @@ public class Program
             Console.WriteLine("Letter counter:");
             string usrInput = Console.ReadLine();
             Console.WriteLine(usrInput.Length);
+            Console.WriteLine("Quit?");
+            usrInput = Console.ReadLine();
+            if (usrInput.ToLower().Equals("y") || usrInput.ToLower().Equals("yes") && usrInput != null)
+            {
+                goon = false;
+            }
             goon = false;
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, Ma guy!");
-        }
-    }
+      }
 }
