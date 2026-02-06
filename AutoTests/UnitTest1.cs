@@ -13,7 +13,7 @@ namespace AutoTests
             //dog
             //dog2
             int i = 1 + 1;
-            Assert.That(i, Is.EqualTo(3));
+            Assert.That(i, Is.EqualTo(2));
         }
     }
 }
