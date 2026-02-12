@@ -2,15 +2,16 @@ name: CodeQL Analysis
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
-
+    permissions:
+      security-events: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
