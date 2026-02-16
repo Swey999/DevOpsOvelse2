@@ -17,7 +17,8 @@ public class Program
                 Console.WriteLine(usrInput.Length);
             }
             usrInput = Console.ReadLine();
-            if (usrInput != null && usrInput.ToLower().Equals("y") || usrInput != null && usrInput.ToLower().Equals("yes"))
+            if (
+                usrInput != null && usrInput.ToLower().Equals("y") || usrInput != null && usrInput.ToLower().Equals("yes"))
             {
                 goon = false;
                 if(goon == false)
