@@ -1,28 +1,21 @@
 using ConsoleDevOps;
-
-namespace AutoTests
+namespace AutoTests;
+public class Tests
 {
-    public class Tests
+    [SetUp]
+    public void Setup() { }
+    [Test]
+    public void KoererDockerVirkeligVoresTests()
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        [Test]
-        public void KoererDockerVirkeligVoresTests()
-        {
-            //dog
-            //dog2
-            //dog3
-            int i = 1 + 1;
-            Assert.That(i, Is.EqualTo(2));
-        }
-
-        [Test]
-        public void IntegrationstestForNumbersOgPlusNumbers()
-        {
-            Assert.That(Program.PlusNumbers(), Is.EqualTo(19));
-        }
+        //dog
+        //dog2
+        //dog3
+        int i = 1 + 1;
+        Assert.That(i, Is.EqualTo(2));
+    }
+    [Test]
+    public void IntegrationstestForNumbersOgPlusNumbers()
+    {
+        Assert.That(Program.PlusNumbers(), Is.EqualTo(19));
     }
 }

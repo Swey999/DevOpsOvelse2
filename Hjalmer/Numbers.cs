@@ -1,15 +1,12 @@
-﻿namespace Hjalmer
+﻿namespace Hjalmer;
+public class Numbers
 {
-    public class Numbers
+    public int GetNine()
     {
-        public int GetNine()
-        {
-            return 9;
-        }
-
-        public int GetTen()
-        {
-            return 10;
-        }
+        return 9;
+    }
+    public int GetTen()
+    {
+        return 10;
     }
 }

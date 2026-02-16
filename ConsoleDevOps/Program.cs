@@ -1,5 +1,4 @@
 ﻿using Hjalmer;
-
 namespace ConsoleDevOps;
 public class Program
 {
@@ -7,7 +6,6 @@ public class Program
     {
         bool goon = true;
         Console.WriteLine("Hello, World!");
-
         while (goon)
         {
             Console.WriteLine("Letter counter:");
@@ -27,10 +25,8 @@ public class Program
                 //Vigtig kommentar
                 //Vigtig kommentar 2
             }
-
         }
     }
-
     public static int PlusNumbers()
     {
         Numbers nums = new Numbers();
