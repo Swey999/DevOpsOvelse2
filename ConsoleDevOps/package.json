@@ -1,5 +1,10 @@
 {
-  "dependencies": {
-    "lint": "^0.8.19"
-  }
+    "name": "devopsovelse2",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"No tests yet\" && exit 0"
+    },
+    "dependencies": {
+        "lint": "^0.8.19"
+    }
 }
