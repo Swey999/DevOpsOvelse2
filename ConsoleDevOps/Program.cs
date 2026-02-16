@@ -1,4 +1,6 @@
-﻿namespace ConsoleDevOps;
+﻿using Hjalmer;
+
+namespace ConsoleDevOps;
 public class Program
 {
     static void Main(string[] args)
@@ -27,5 +29,11 @@ public class Program
             }
 
         }
+    }
+
+    public static int PlusNumbers()
+    {
+        Numbers nums = new Numbers();
+        return nums.GetNine() + nums.GetTen();
     }
 }
