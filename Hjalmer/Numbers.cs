@@ -6,6 +6,7 @@ public class Numbers
     {
         return 9;
     }
+
     public int GetTen()
     {
         return 10;

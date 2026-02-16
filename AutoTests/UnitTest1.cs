@@ -6,6 +6,7 @@ public class Tests
 {
     [SetUp]
     public void Setup() { }
+
     [Test]
     public void KoererDockerVirkeligVoresTests()
     {
@@ -15,6 +16,7 @@ public class Tests
         int i = 1 + 1;
         Assert.That(i, Is.EqualTo(2));
     }
+
     [Test]
     public void IntegrationstestForNumbersOgPlusNumbers()
     {
