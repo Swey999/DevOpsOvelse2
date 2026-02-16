@@ -11,4 +11,8 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hjalmer\Hjalmer.csproj" />
+  </ItemGroup>
+
 </Project>
