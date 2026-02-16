@@ -20,7 +20,7 @@ public class Program
             if (
                 usrInput != null && usrInput.ToLower().Equals("y")
                 || usrInput != null && usrInput.ToLower().Equals("yes")
-                )
+            )
             {
                 goon = false;
                 if(goon == false)
