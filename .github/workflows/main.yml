@@ -22,5 +22,12 @@ jobs:
       - name: Run script tests
         run: bash .github/workflows/test_script.sh
 
+      - name: Restore
+        run: dotnet restore
+      
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+      
       - name: Run Unit Tests
-        run: dotnet test
+        run: dotnet test --no-build --configuration Release
+
