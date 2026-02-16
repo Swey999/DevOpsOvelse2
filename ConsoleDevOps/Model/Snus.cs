@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleDevOps.Model;
+
 public class Snus
 {
     public string? Brand { get; set; }

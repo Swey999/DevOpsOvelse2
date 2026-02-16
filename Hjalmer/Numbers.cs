@@ -1,4 +1,5 @@
 ﻿namespace Hjalmer;
+
 public class Numbers
 {
     public int GetNine()

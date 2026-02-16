@@ -1,6 +1,7 @@
 using ConsoleDevOps;
 
 namespace AutoTests;
+
 public class Tests
 {
     [SetUp]
