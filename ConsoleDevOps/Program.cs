@@ -9,14 +9,16 @@ public class Program
         while (goon)
         {
             Console.WriteLine("Letter counter:");
-            string usrInput = Console.ReadLine();
-            Console.WriteLine(usrInput.Length);
-            Console.WriteLine("Quit?");
+            string? usrInput = Console.ReadLine();
+            if (usrInput != null)
+            {
+                Console.WriteLine(usrInput.Length);
+            }
             usrInput = Console.ReadLine();
-            if (usrInput.ToLower().Equals("y") || usrInput.ToLower().Equals("yes") && usrInput != null)
+            if (usrInput != null && usrInput.ToLower().Equals("y") || usrInput != null && usrInput.ToLower().Equals("yes"))
             {
                 goon = false;
-                if(goon = false)
+                if(goon == false)
                 {
                     goon = true;
                 }

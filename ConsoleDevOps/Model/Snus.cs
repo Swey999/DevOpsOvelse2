@@ -8,7 +8,7 @@ namespace ConsoleDevOps.Model;
 
 public class Snus
 {
-    public string Brand { get; set; }
+    public string? Brand { get; set; }
     public int ContainerWeight { get; set; }
     public int Amount { get; set; }
 
